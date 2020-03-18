@@ -10,6 +10,6 @@ def switch_average(key):
         'D': 60,
         'F':  0
     }
-    return switcher.get(key)
+    return switcher.get(key, KeyError)
 
 

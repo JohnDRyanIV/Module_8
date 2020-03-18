@@ -15,6 +15,5 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(a.switch_average('Q'), KeyError)
 
 
-
 if __name__ == '__main__':
     unittest.main()
